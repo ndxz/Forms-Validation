@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/FORMS VALIDATION/index.css">
+    
+    <title>Forms Validation</title>
+</head>
+<body>
+
+<form id="myform">
+        <div class="username">
+            <div>
+                <label>First Name</label> <br>
+                <input id="fn" type="text"> <br>
+            </div>
+            <div>
+                <label>Last Name</label> <br>
+                <input id="ln" type="text">
+            </div>
+            
+         </div>
+    <label>Address</label> <br>
+    <input id="adrs" type="text"> <br>
+    <label>Email</label> <br>
+    <input id="email" type="text"> <br>
+    <label>Password</label> <br>
+    <input id="pass" type="password"> <br>
+    <label >Comments</label> <br>
+    <textarea name="comments-area" id="comments" cols="30" rows="5"></textarea>
+         
+</form>
+<button onclick="handlesubmit()" type="submit">Send</button>
+<button onclick="resetform()" type="reset">Reset</button>
+
+<script src="/FORMS VALIDATION/index.js"></script>
+    
+</body>
+</html>
